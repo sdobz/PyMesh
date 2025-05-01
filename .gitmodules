@@ -60,7 +60,7 @@
 	shallow = true
 [submodule "third_party/tbb"]
 	path = third_party/tbb
-	url = https://github.com/PyMesh/tbb.git
+	url = https://github.com/sdobz/tbb.git
 	shallow = true
 [submodule "libigl"]
 	path = third_party/libigl
