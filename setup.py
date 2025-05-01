@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 
+from setuptools import setup, Distribution, Extension
 from distutils.command.build import build
 from distutils.command.build_ext import build_ext
 from distutils.command.clean import clean
 import multiprocessing
 import os
 import os.path
-from setuptools import setup, Distribution, Extension
 from subprocess import check_call
 import shutil
 import platform
